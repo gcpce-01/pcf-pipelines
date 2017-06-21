@@ -17,10 +17,10 @@ set -ex
 # limitations under the License.
 
 
-rm ~/.aws/credentials
-
-mkdir ~/.aws
+mkdir -p ~/.aws
 touch ~/.aws/credentials
+echo "" > ~/.aws/credentials
+
 echo "aws_access_key_id = ${AWS_ACCESS_KEY_ID}" >> ~/.aws/credentials
 echo "aws_secret_access_key = ${AWS_SECRET_ACCESS_KEY}" >> ~/.aws/credentials
 
