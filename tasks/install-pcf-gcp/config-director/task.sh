@@ -9,7 +9,7 @@ cat > opsman.json <<EOF
     "director_configuration[resurrector_enabled]": "1",
     "director_configuration[post_deploy_enabled]": "0",
     "director_configuration[bosh_recreate_on_next_deploy]": "0",
-    "director_configuration[retry_bosh_deploys]": "1",
+    "director_configuration[retry_bosh_deploys]": "0",
     "director_configuration[hm_pager_duty_options][enabled]": "0",
     "director_configuration[hm_emailer_options][enabled]": "0",
     "director_configuration[blobstore_type]": "local",
